@@ -5,7 +5,6 @@ import(
 	"testing"
 )
 
-
 func TestShouldReturnZeroIfWorking(t *testing.T) {
 	actual := ShouldReturnZeroIfWorking()
 	expected := 0
@@ -15,3 +14,9 @@ func TestShouldReturnZeroIfWorking(t *testing.T) {
 	}
 	
 }
+
+func TestInsertEmployee(t *testing.T) {
+	
+}
+
+
