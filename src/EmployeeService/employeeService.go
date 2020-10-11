@@ -1,7 +1,8 @@
-package exampleService
+package employeeService
 
 import (
 	"../employeeRepository"
+	"fmt"
 )
 
 func ShouldReturnZeroIfWorking() int {
@@ -9,5 +10,6 @@ func ShouldReturnZeroIfWorking() int {
 }
 
 func InsertEmployee(repo employeeRepository.IEmployeeRepository) int {
+	fmt.Println("inserting employee")
 	return repo.InsertEmployee()
 }

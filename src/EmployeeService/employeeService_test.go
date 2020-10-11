@@ -1,4 +1,4 @@
-package exampleService
+package employeeService
 
 import(
 	"fmt"
