@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"./employeeService"
-	"./employeeRepository"
+	"GoMockFirstTry/src/employeeService"
+	"GoMockFirstTry/src/employeeRepository"
 )
 
 func main(){

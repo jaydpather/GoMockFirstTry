@@ -1,7 +1,7 @@
 package employeeService
 
 import (
-	"../employeeRepository"
+	"GoMockFirstTry/src/employeeRepository"
 	"fmt"
 )
 
